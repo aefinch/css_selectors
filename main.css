@@ -1,0 +1,14 @@
+header {
+	border: 1px solid royalblue;
+}
+.navigation li {
+	display:inline;
+	margin: 0 100px;
+	
+}
+.disabled {
+	color: grey;
+}
+.diabled a{
+	color:purple;
+}
