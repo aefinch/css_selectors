@@ -12,3 +12,30 @@ header {
 .diabled a{
 	color:purple;
 }
+.active {
+	color: yellow;
+}
+.parent div div:nth-of-type(2n+1) {
+	color: red;
+}
+.parent div div:nth-of-type(2n) {
+	color:blue;
+}
+.parent div div:nth-of-type(2n+1)+h4 {
+	background-color: red;
+}
+.parent div div:nth-of-type(2n)+h4 {
+	background-color: blue;
+}
+.grandparent>h4 {
+	border: 1px solid;
+	border-radius: 5px;
+}
+.promo {
+	font-weight: bold;
+	color:gold;
+}
+[type=text] {
+	height: 25px;
+}
+
